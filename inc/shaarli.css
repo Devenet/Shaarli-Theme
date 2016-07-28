@@ -8,7 +8,7 @@ version: 2.8.2r1
 html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
 
 html { background-color: #303030; }
-body { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size:10pt;  word-wrap: break-word; max-width: 1200px; margin: 0 auto; }
+fbody { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:10pt;  word-wrap: break-word; max-width: 1200px; margin: 0 auto; }
 input, textarea {
 	background-color: #dedede;
 
@@ -203,7 +203,7 @@ h1 { font-size:20pt; font-weight:bold; font-style:italic; margin-bottom:20px; }
 .linktitle a:hover, .permalink a:hover { color:#0471A0; }
 .linkdate { font-size:8pt; color:#888; background-image:url('../images/calendar.png');padding:2px 0 3px 20px; background-repeat:no-repeat; text-decoration: none; color:#E28E3F;  }
 .linkurl { font-size:8pt; color:#4BAA74; }
-.linkdescription { color:#000; margin-top:10px; margin-bottom:15px; font-weight:normal; max-height:400px; overflow:auto; font-family: "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.linkdescription { color:#000; margin-top:10px; margin-bottom:15px; font-weight:normal; max-height:400px; overflow:auto; /*font-family: "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;*/ }
 .linkdescription a { text-decoration: none; color:#3465A4; }
 .linkdescription a:hover { color:#F57900; }
 .permalink { font-size: 8pt; }
@@ -300,7 +300,7 @@ box-shadow:2px 2px 20px 2px #333333;
 
 div.daily
 {
-    font-family: Georgia, 'DejaVu Serif', Norasi, serif;
+    /*font-family: Georgia, 'DejaVu Serif', Norasi, serif;*/
     background-color: #E6D6BE;
     /* Background paper texture by BashCorpo:
        http://www.bashcorpo.dk/textures.php
